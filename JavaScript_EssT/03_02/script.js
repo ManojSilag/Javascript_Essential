@@ -6,3 +6,4 @@ var justAnotherVariable;
 
 // Try this in your console:
 // console.log(typeof insertVariableName);
+console.log(typeof emptyInside);

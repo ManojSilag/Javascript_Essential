@@ -5,7 +5,7 @@ console.log("Before: ", pens);
 
 // PROPERTIES:
 // Get a property of an object by name:
-// console.log("Array length: ", pens.length);
+console.log("Array length: ", pens.length);
 
 // METHODS:
 // Reverse the array:
@@ -33,8 +33,8 @@ console.log("Before: ", pens);
 // console.log("New pens: ", newPens);
 
 // Return the first element that matches the search parameter after the specified index position. Defaults to index position 0. Arguments: pens.indexOf(search, index):
-// var result = pens.indexOf(search, index);
-// console.log("The search result index is: ", result);
+var result = pens.indexOf("red", 0);
+console.log("The search result index is: ", result);
 
 // Return the items in an array as a comma separated string. The separator argument can be used to change the comma to something else. Arguments: pens.join(separator):
 // var arrayString = pens.join(separator);
