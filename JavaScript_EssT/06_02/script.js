@@ -14,10 +14,10 @@ let minPostion = (MINDATE * 360) / 60 + (SECDATE * (360 / 60)) / 60;
 let secPostion = (SECDATE * 360) / 60;
 
 function runClock() {
- 
-    hrPosition = hrPosition + (3/360);
-    minPostion = minPostion + (6/60); 
-    secPostion = secPostion + 6; 
+  hrPosition = hrPosition + 3 / 360;
+  minPostion = minPostion + 6 / 60;
+  secPostion = secPostion + 6;
+
   HOURHAND.style.transform = `rotate(${hrPosition}deg)`;
   MINUTEHAND.style.transform = `rotate(${minPostion}deg)`;
   SECONDHAND.style.transform = `rotate(${secPostion}deg)`;
